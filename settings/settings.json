@@ -1,0 +1,57 @@
+﻿{
+  "totalmax_comment": "максимальное количество перезапусков робота",
+  "totalmax": 42,
+
+  "ias_time_comment": "время для выгрузки из ИАС",
+  "ias_time_start": "22:00:00",
+  "ias_time_end": "22:00:00",
+  
+  "crm_url": "https://crm.billing.interrao.ru",
+  "crm_url_test_1": "http://spb18-tcrm03.billing.interrao.ru/",
+  "crm_url_test_2": "https://crmtst3-oper1.billing.interrao.ru",
+  "crm_login_name_comment": "название переменной логина в менеджере безопасности",
+  "crm_login_name": "crm_login_name",
+  "crm_password_comment": "название переменной пароля в менеджере безопасности",
+  "crm_password_name": "crm_password_name",
+
+  "ebs_ul_url": "http://eb-ul-prd.spb19-el3-cloud.billing.interrao.ru/welcome.do",
+  "ebs_ul_url_test": "http://eb-ul-tst.spb1-subtest-k8s-cloud.pesc.ru/welcome.do",
+  "ebs_ul_login_name": "ebs_ul_login_name",
+  "ebs_ul_password_name": "ebs_ul_password_name",
+
+  "ias_login_name": "ias_login_name",
+  "ias_password_name": "ias_password_name",
+
+  "network_folder": "\\\\Mes1-fs01.interrao.ru\\Exchange Folder\\Центральный офис\\КПБ\\УДР\\Реестры заявлений отправлений\\",
+  "network_folder_test": "\\\\Mes1-fs01.interrao.ru\\Exchange Folder\\Центральный офис\\КПБ\\УДР\\Реестры заявлений отправлений\\",
+  "local_folder": "\\data\\reg\\",
+
+  "proxy_comment": "настройки прокси. если данной настройки нет или пустое значение, то прокси использоваться не будет",
+  "proxy": "",
+
+  "minimize_comment": "сворачивать окно при запуске",
+  "minimize": false,
+
+  "bsend_email_flag_comment": "отсылать ли имэйлы",
+  "bsend_email_flag": true,
+  "bsend_email_from_comment": "настроенный ящик в аутлуке",
+  "bsend_email_from": "mes1_sigma.robot02@mosenergosbyt.ru",
+  "bsend_email_to_comment": "кому отсылать через запятую",
+  "bsend_email_to": "nevinskaya_oi@interrao.ru,nekhorosheva_ob@mosenergosbyt.ru,slepov_yv@mosenergosbyt.ru",
+  "bsend_email_copy_comment": "копии через запятую",
+  "bsend_email_copy": "m.shabashev@sigma-it.ru,akomissarov@sigma-it.ru",
+  "email_header_prefix_comment": "префикс заголовка письма",
+  "email_header_prefix": "Робот №78",
+
+  "protocolFolder_comment": "куда складывать протокол и JSON",
+  "protocolFolder": "res\\protocol\\",
+  "protocolFolderShared": "\\\\Mes1-fs01.interrao.ru\\Exchange Folder\\Центральный офис\\КПБ\\УДР\\Реестры заявлений отправлений\\Протоколы отчетов\\",
+  "_protocolFolderShared": "\\\\Mes1-fs01.interrao.ru\\Exchange Folder\\Центральный офис\\КПБ\\УДР\\(ТЕСТ) Реестры заявлений отправлений\\Протоколы отчетов (ТЕСТ)\\",
+  "protocolFolderEnabled": true,
+
+  "iasFolder_comment": "куда складывать выгрузки из ИАС",
+  "iasFolder": "res\\ias\\",
+  "iasFolderShared": "\\\\Mes1-fs01.interrao.ru\\Exchange Folder\\Центральный офис\\КПБ\\УДР\\Реестры заявлений отправлений\\Выгрузки ИАС\\",
+	"_iasFolderShared": "\\\\Mes1-fs01.interrao.ru\\Exchange Folder\\Центральный офис\\КПБ\\УДР\\(ТЕСТ) Реестры заявлений отправлений\\Выгрузки ИАС (ТЕСТ)\\",
+  "iasFolderEnabled": true
+}
