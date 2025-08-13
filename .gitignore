@@ -1,0 +1,16 @@
+
+/* 
+!/RPAbot Studio 78/ 
+
+/RPAbot Studio 78/ * 
+!/RPAbot Studio 78/My Robots/ 
+
+**/tmp
+**/*.log
+**/log/ 
+**/res/ 
+**/*.xlsx
+**/*.txt
+
+!/.gitignore
+!/README.md
